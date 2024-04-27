@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./styles/style.css" />
+
+		<title>News homepage</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<img class="logo" src="./assets/images/logo.svg" alt="Brand Logo" />
+				<nav class="navbar">
+					<ul class="navbar__menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">New</a></li>
+						<li><a href="#">Popular</a></li>
+						<li><a href="#">Trending</a></li>
+						<li><a href="#">Categories</a></li>
+					</ul>
+				</nav>
+				<img class="hamburger-menu-open-icon" src="./assets/images/icon-menu.svg" alt="" />
+			</header>
+
+			<div class="grid-container">
+				<div class="banner"><img src="./assets/images/image-web-3-desktop.jpg" alt="" /></div>
+				<h1 class="news-header">The Bright Future of Web 3.0?</h1>
+				<div class="news-description">
+					<p class="news-description__content">
+						We dive into the next evolution of the web that claims to put the power of the platforms back into the
+						hands of the people. But is it really fulfilling its promise?
+					</p>
+					<button class="news-description__button">Read more</button>
+				</div>
+				<aside class="new-articles">
+					<h2 class="new-articles__header">New</h2>
+					<div class="new-articles__items">
+						<div class="new-articles__items__item">
+							<h3 class="new-articles__items__item__title">Hydrogen VS Electric Cars</h3>
+							<p class="new-articles__items__item__description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+						</div>
+						<div class="new-articles__items__item">
+							<h3 class="new-articles__items__item__title">The Downsides of AI Artistry</h3>
+							<p class="new-articles__items__item__description">
+								What are the possible adverse effects of on-demand AI image generation?
+							</p>
+						</div>
+						<div class="new-articles__items__item">
+							<h3 class="new-articles__items__item__title">Is VC Funding Drying Up?</h3>
+							<p class="new-articles__items__item__description">
+								Private funding by VC firms is down 50% YOY. We take a look at what that means.
+							</p>
+						</div>
+					</div>
+				</aside>
+				<div class="prev-articles">
+					<div class="prev-articles__items">
+						<div class="prev-articles__items__item">
+							<img class="prev-articles__items__item__img" src="./assets/images/image-retro-pcs.jpg" alt="" />
+							<div class="prev-articles__items__item__body">
+								<span class="prev-articles__items__item__body__number">01</span>
+								<h3 class="prev-articles__items__item__body__title">Reviving Retro PCs</h3>
+								<p class="prev-articles__items__item__body__description">
+									What happens when old PCs are given modern upgrades?
+								</p>
+							</div>
+						</div>
+						<div class="prev-articles__items__item">
+							<img class="prev-articles__items__item__img" src="./assets/images/image-top-laptops.jpg" alt="" />
+							<div class="prev-articles__items__item__body">
+								<span class="prev-articles__items__item__body__number">02</span>
+								<h3 class="prev-articles__items__item__body__title">Top 10 Laptops of 2022</h3>
+								<p class="prev-articles__items__item__body__description">
+									Our best picks for various needs and budgets.
+								</p>
+							</div>
+						</div>
+						<div class="prev-articles__items__item">
+							<img class="prev-articles__items__item__img" src="./assets/images/image-gaming-growth.jpg" alt="" />
+							<div class="prev-articles__items__item__body">
+								<span class="prev-articles__items__item__body__number">03</span>
+								<h3 class="prev-articles__items__item__body__title">The Growth of Gaming</h3>
+								<p class="prev-articles__items__item__body__description">
+									How the pandemic has sparked fresh opportunities.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div class="mobile-menu-wrapper">
+			<div class="overlay"></div>
+			<div class="hamburger-menu">
+				<img class="hamburger-menu-close-icon" src="./assets/images/icon-menu-close.svg" alt="" />
+				<nav class="mobile-navbar">
+					<ul class="mobile-navbar__menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">New</a></li>
+						<li><a href="#">Popular</a></li>
+						<li><a href="#">Trending</a></li>
+						<li><a href="#">Categories</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
